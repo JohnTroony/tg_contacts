@@ -1,0 +1,8 @@
+README.md
+cli.py
+pyproject.toml
+tg_contacts.egg-info/PKG-INFO
+tg_contacts.egg-info/SOURCES.txt
+tg_contacts.egg-info/dependency_links.txt
+tg_contacts.egg-info/entry_points.txt
+tg_contacts.egg-info/top_level.txt

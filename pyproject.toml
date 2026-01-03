@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tg-contacts"
+version = "1.0.0"
+description = "Telegram contacts JSON to Android-ready CSV/VCF converter"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "John (Troon) Ombagi"}]
+requires-python = ">=3.7"
+keywords = ["telegram", "contacts", "android", "csv", "vcf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop"
+]
+
+[project.scripts]
+tg-contacts = "tg_contacts.cli:entry"

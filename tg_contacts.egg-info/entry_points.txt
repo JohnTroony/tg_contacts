@@ -1,0 +1,2 @@
+[console_scripts]
+tg-contacts = tg_contacts.cli:entry

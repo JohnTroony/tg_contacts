@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: tg-contacts
+Version: 1.0.0
+Summary: Telegram contacts JSON to Android-ready CSV/VCF converter
+Author: John (Troon) Ombagi
+License: MIT
+Keywords: telegram,contacts,android,csv,vcf
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
 # tg-contacts
 
 **tg-contacts** is a command-line tool that converts **Telegram contact exports (JSON)** into **Android-ready CSV or VCF files**.
