@@ -1,6 +1,8 @@
+LICENSE
 README.md
-cli.py
 pyproject.toml
+tg_contacts/__init__.py
+tg_contacts/cli.py
 tg_contacts.egg-info/PKG-INFO
 tg_contacts.egg-info/SOURCES.txt
 tg_contacts.egg-info/dependency_links.txt

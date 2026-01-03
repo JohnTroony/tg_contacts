@@ -4,6 +4,8 @@
 
 It cleans, normalizes, deduplicates, and formats phone numbers so they import **cleanly into Google Contacts / Android**.
 
+
+
 ---
 
 ## Key Features
@@ -32,6 +34,9 @@ It cleans, normalizes, deduplicates, and formats phone numbers so they import **
 ```bash
 pip install tg-contacts
 ```
+
+⚠️ Note: Version 1.0.0 had a packaging issue. Please use 1.0.1 or newer.
+
 
 Verify installation:
 

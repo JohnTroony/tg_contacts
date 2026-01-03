@@ -25,7 +25,7 @@ def color(text, c):
 def banner():
     print(color("\n╔════════════════════════════════════════════╗", C.CYAN))
     print(color("║ Telegram Contacts → Android Import Tool    ║", C.CYAN))
-    print(color("║        Convert to CSV or VCF (Ultimate)    ║", C.CYAN))
+    print(color("║        Convert to CSV / VCF (Ver 1.0.1)    ║", C.CYAN))
     print(color("╚════════════════════════════════════════════╝\n", C.CYAN))
 
 # ---------- Phone Normalization ----------

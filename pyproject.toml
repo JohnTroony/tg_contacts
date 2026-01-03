@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tg-contacts"
-version = "1.0.0"
+version = "1.0.1"
 description = "Telegram contacts JSON to Android-ready CSV/VCF converter"
 readme = "README.md"
 license = {text = "MIT"}
@@ -20,3 +20,6 @@ classifiers = [
 
 [project.scripts]
 tg-contacts = "tg_contacts.cli:entry"
+
+[tool.setuptools]
+packages = ["tg_contacts"]

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: tg-contacts
-Version: 1.0.0
+Version: 1.0.1
 Summary: Telegram contacts JSON to Android-ready CSV/VCF converter
 Author: John (Troon) Ombagi
 License: MIT
@@ -11,12 +11,16 @@ Classifier: Environment :: Console
 Classifier: Intended Audience :: End Users/Desktop
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
 
 # tg-contacts
 
 **tg-contacts** is a command-line tool that converts **Telegram contact exports (JSON)** into **Android-ready CSV or VCF files**.
 
 It cleans, normalizes, deduplicates, and formats phone numbers so they import **cleanly into Google Contacts / Android**.
+
+
 
 ---
 
@@ -46,6 +50,9 @@ It cleans, normalizes, deduplicates, and formats phone numbers so they import **
 ```bash
 pip install tg-contacts
 ```
+
+⚠️ Note: Version 1.0.0 had a packaging issue. Please use 1.0.1 or newer.
+
 
 Verify installation:
 

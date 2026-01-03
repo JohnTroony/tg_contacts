@@ -1,0 +1,32 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---- Packaging / Build ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- OS / Editor ----
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Testing / Coverage ----
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---- Logs ----
+*.log
+
+# ---- Local config ----
+.env
+
